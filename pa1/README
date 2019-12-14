@@ -1,0 +1,16 @@
+//Sukhveer Karlcut
+//ID: 1704725
+//cruzID: skarlcut
+//pa1
+
+Files included:
+List.java
+	List.java includes methods that create, access, and manipulate lists. It also has a private class Node, of which the List is made of. This file is used by ListClient.java and Lex.java.
+ListClient.java
+	ListClient.java is a file that is used to test List.java. It contains test cases and corner cases for List.java methods.
+Lex.java 
+	Lex.java implements the methods in List.java to read input from a file, and retun a file that has every line from the input file, alphabetized. Using insertion sort and File I/O, this file reads in lines of a file and prints them laphabetically into the output file.
+Makefile
+	Makefile is used to compile and run the above files.
+README
+	Contains information about each file submitted.

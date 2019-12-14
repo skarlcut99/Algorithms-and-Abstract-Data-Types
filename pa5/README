@@ -1,0 +1,20 @@
+Sukhveer Karlcut
+skarlcut
+PA5
+
+List.c - A multi-purpose List ADT that implements a bi-directional queue of ints in the form of a doubly linked list data structure.
+            
+List.h - Header file for List.c
+
+Graph.c - A Graph ADT that creates adjacency list representations of graphs, which consists of an array of Lists. Each List corresponds to a 
+          vertex in the graph and gives the neighbors of that vertex.
+
+Graph.h - Header file for Graph.c
+
+GraphTest.c - A file used solely for testing the Graph ADT.
+
+FindComponents.c - Acts as a client module of Graph.c. Read the input file. Assemble a graph object G using newGraph() and addArc(). Print the adjacency list representation of G to the output file.Run DFS on G and 𝐺^𝑇, processing the vertices in the second call by decreasing finish times from the first call. Determines the strong components of G.Prints the strong components of G to the output file in topologically sorted order
+
+Makefile - Compiles all .c and .h  files listed here and creates executable jar files for FindComponents and GraphClient.
+
+README

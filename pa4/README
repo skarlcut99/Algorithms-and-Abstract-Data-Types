@@ -1,0 +1,23 @@
+Sukhveer Karlcut
+skarlcut
+PA4
+
+List.c - A multi-purpose List ADT that implements a bi-directional queue of ints in the form of a doubly linked list data structure.
+            
+List.h - Header file for List.c
+
+Graph.c - A Graph ADT that creates adjacency list representations of graphs, which consists of an array of Lists. Each List corresponds to a 
+          vertex in the graph and gives the neighbors of that vertex.
+
+Graph.h - Header file for Graph.c
+
+GraphTest.c - A file used solely for testing the Graph ADT.
+
+FindPath.c - Acts as a client module of Graph.c. Takes three command line arguments: the names of an input file and an output file as well as this file
+itself. The input and output can be any text file. The input file contains input numbers containing specific data (the graph's order, vertices for
+adding edges, and vertices to run BFS and getPath() on) that this file needs to identify and sort out. The output file will contain the graph's
+adjacency list (according to the edges created) as well as the distance and shortest possible path for each source/destination vertex pair inputted.
+
+Makefile - Compiles all .c and .h  files listed here and creates executable jar files for FindPath and GraphClient.
+
+README

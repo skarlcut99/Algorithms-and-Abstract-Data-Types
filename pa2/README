@@ -1,0 +1,18 @@
+//Sukhveer Karlcut
+//ID: 1704725
+//cruzID: skarlcut
+//pa2
+
+Files included:
+List.h
+	List.h is the header file that contains method declarations for List.c
+List.c
+        List.c includes methods that create, access, and manipulate lists. It also has a typedef NodeObj, of which the List is made of. This file is used by ListClient.c and Lex.c.
+ListClient.c
+        ListClient.c is a file that is used to test List.c. It contains test cases and corner cases for List.c methods.
+Lex.c
+        Lex.c implements the methods in List.java to read input from a file, and retun a file that has every line from the input file, alphabetized. Using insertion sort and File I/O, this file reads in lines of a file and prints them laphabetically into the output file.
+Makefile
+        Makefile is used to compile and run the above files.
+README
+        Contains information about each file submitted.
